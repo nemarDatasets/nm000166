@@ -1,0 +1,13 @@
+onset	duration	trial_type	value	sample	epoch_index	epoch_id	task_code	paradigm	stimulus_description
+0.0	4.0	segment/restEO	2	0	0	epoch070334	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+4.0	4.0	segment/restEO	2	1000	1	epoch070910	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+8.0	4.0	segment/restEO	2	2000	2	epoch082644	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+12.0	4.0	segment/restEO	2	3000	3	epoch086527	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+16.0	4.0	segment/restEO	2	4000	4	epoch092065	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+20.0	4.0	segment/restEO	2	5000	5	epoch092242	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+24.0	4.0	segment/restEO	2	6000	6	epoch096852	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+28.0	4.0	segment/restEO	2	7000	7	epoch097635	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+32.0	4.0	segment/restEO	2	8000	8	epoch103957	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+36.0	4.0	segment/restEO	2	9000	9	epoch105866	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+40.0	4.0	segment/restEO	2	10000	10	epoch112031	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+44.0	4.0	segment/restEO	2	11000	11	epoch116483	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking

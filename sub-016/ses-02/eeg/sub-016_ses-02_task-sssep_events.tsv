@@ -1,0 +1,20 @@
+onset	duration	trial_type	value	sample	epoch_index	epoch_id	task_code	paradigm	stimulus_description
+0.0	4.0	segment/sssep	8	0	0	epoch058910	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+4.0	4.0	segment/sssep	8	1000	1	epoch062086	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+8.0	4.0	segment/sssep	8	2000	2	epoch066074	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+12.0	4.0	segment/sssep	8	3000	3	epoch067468	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+16.0	4.0	segment/sssep	8	4000	4	epoch072900	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+20.0	4.0	segment/sssep	8	5000	5	epoch073106	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+24.0	4.0	segment/sssep	8	6000	6	epoch073397	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+28.0	4.0	segment/sssep	8	7000	7	epoch080343	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+32.0	4.0	segment/sssep	8	8000	8	epoch084361	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+36.0	4.0	segment/sssep	8	9000	9	epoch087152	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+40.0	4.0	segment/sssep	8	10000	10	epoch097415	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+44.0	4.0	segment/sssep	8	11000	11	epoch098221	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+48.0	4.0	segment/sssep	8	12000	12	epoch098654	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+52.0	4.0	segment/sssep	8	13000	13	epoch107567	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+56.0	4.0	segment/sssep	8	14000	14	epoch109813	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+60.0	4.0	segment/sssep	8	15000	15	epoch111091	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+64.0	4.0	segment/sssep	8	16000	16	epoch114530	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+68.0	4.0	segment/sssep	8	17000	17	epoch116209	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min
+72.0	4.0	segment/sssep	8	18000	18	epoch119118	8	steady-state	22.04 Hz vibration motor (same 1027 disk motor as SEP) on left hand, continuous for 2 min

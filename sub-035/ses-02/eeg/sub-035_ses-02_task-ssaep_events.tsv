@@ -1,0 +1,3 @@
+onset	duration	trial_type	value	sample	epoch_index	epoch_id	task_code	paradigm	stimulus_description
+0.0	4.0	segment/ssaep	7	0	0	epoch062271	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+4.0	4.0	segment/ssaep	7	1000	1	epoch072053	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min

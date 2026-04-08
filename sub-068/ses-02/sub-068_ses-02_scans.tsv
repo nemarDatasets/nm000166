@@ -1,0 +1,14 @@
+filename	acq_time	n_epochs	duration_s	task_code	paradigm
+eeg/sub-068_ses-02_task-restEC_eeg.vhdr	n/a	21	84.0	1	resting-state
+eeg/sub-068_ses-02_task-restEO_eeg.vhdr	n/a	14	56.0	2	resting-state
+eeg/sub-068_ses-02_task-vep_eeg.vhdr	n/a	21	84.0	3	transient-state
+eeg/sub-068_ses-02_task-aep_eeg.vhdr	n/a	20	80.0	4	transient-state
+eeg/sub-068_ses-02_task-sep_eeg.vhdr	n/a	21	84.0	5	transient-state
+eeg/sub-068_ses-02_task-ssvep_eeg.vhdr	n/a	8	32.0	6	steady-state
+eeg/sub-068_ses-02_task-ssaep_eeg.vhdr	n/a	13	52.0	7	steady-state
+eeg/sub-068_ses-02_task-sssep_eeg.vhdr	n/a	12	48.0	8	steady-state
+eeg/sub-068_ses-02_task-p300_eeg.vhdr	n/a	15	60.0	9	cognitive-oddball
+eeg/sub-068_ses-02_task-motorFoot_eeg.vhdr	n/a	25	100.0	10	motor-execution
+eeg/sub-068_ses-02_task-motorRHand_eeg.vhdr	n/a	37	148.0	11	motor-execution
+eeg/sub-068_ses-02_task-motorLHand_eeg.vhdr	n/a	27	108.0	12	motor-execution
+eeg/sub-068_ses-02_task-ssvepSA_eeg.vhdr	n/a	9	36.0	13	ssvep-selective-attention

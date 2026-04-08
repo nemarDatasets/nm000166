@@ -1,0 +1,9 @@
+onset	duration	trial_type	value	sample	epoch_index	epoch_id	task_code	paradigm	stimulus_description
+0.0	3.0	cue/motorFoot	10	0	0	epoch058686	10	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed movement at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+4.0	3.0	cue/motorFoot	10	1000	1	epoch063261	10	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed movement at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+8.0	3.0	cue/motorFoot	10	2000	2	epoch068215	10	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed movement at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+12.0	3.0	cue/motorFoot	10	3000	3	epoch068827	10	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed movement at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+16.0	3.0	cue/motorFoot	10	4000	4	epoch086980	10	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed movement at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+20.0	3.0	cue/motorFoot	10	5000	5	epoch092441	10	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed movement at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+24.0	3.0	cue/motorFoot	10	6000	6	epoch108292	10	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed movement at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+28.0	3.0	cue/motorFoot	10	7000	7	epoch109436	10	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed movement at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome

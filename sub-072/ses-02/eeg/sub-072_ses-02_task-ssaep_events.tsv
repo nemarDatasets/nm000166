@@ -1,0 +1,19 @@
+onset	duration	trial_type	value	sample	epoch_index	epoch_id	task_code	paradigm	stimulus_description
+0.0	4.0	segment/ssaep	7	0	0	epoch058837	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+4.0	4.0	segment/ssaep	7	1000	1	epoch059904	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+8.0	4.0	segment/ssaep	7	2000	2	epoch066203	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+12.0	4.0	segment/ssaep	7	3000	3	epoch067424	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+16.0	4.0	segment/ssaep	7	4000	4	epoch070558	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+20.0	4.0	segment/ssaep	7	5000	5	epoch073702	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+24.0	4.0	segment/ssaep	7	6000	6	epoch074455	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+28.0	4.0	segment/ssaep	7	7000	7	epoch076360	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+32.0	4.0	segment/ssaep	7	8000	8	epoch077159	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+36.0	4.0	segment/ssaep	7	9000	9	epoch082038	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+40.0	4.0	segment/ssaep	7	10000	10	epoch085710	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+44.0	4.0	segment/ssaep	7	11000	11	epoch098694	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+48.0	4.0	segment/ssaep	7	12000	12	epoch102182	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+52.0	4.0	segment/ssaep	7	13000	13	epoch103504	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+56.0	4.0	segment/ssaep	7	14000	14	epoch105375	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+60.0	4.0	segment/ssaep	7	15000	15	epoch106588	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+64.0	4.0	segment/ssaep	7	16000	16	epoch112742	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min
+68.0	4.0	segment/ssaep	7	17000	17	epoch115509	7	steady-state	45.38 Hz amplitude-modulated auditory tone via Nokia WH-102, continuous for 2 min

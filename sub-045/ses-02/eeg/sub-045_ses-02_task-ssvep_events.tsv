@@ -1,0 +1,6 @@
+onset	duration	trial_type	value	sample	epoch_index	epoch_id	task_code	paradigm	stimulus_description
+0.0	4.0	segment/ssvep	6	0	0	epoch058878	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+4.0	4.0	segment/ssvep	6	1000	1	epoch074214	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+8.0	4.0	segment/ssvep	6	2000	2	epoch106324	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+12.0	4.0	segment/ssvep	6	3000	3	epoch118291	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+16.0	4.0	segment/ssvep	6	4000	4	epoch118485	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min

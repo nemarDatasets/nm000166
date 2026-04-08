@@ -1,0 +1,21 @@
+{
+  "filename": {
+    "Description": "Path to EEG file relative to subject/session directory"
+  },
+  "acq_time": {
+    "Description": "Acquisition time (not available for this dataset)"
+  },
+  "n_epochs": {
+    "Description": "Number of concatenated 4-second epochs"
+  },
+  "duration_s": {
+    "Description": "Total duration in seconds",
+    "Units": "s"
+  },
+  "task_code": {
+    "Description": "Original M3CV task code (1-13)"
+  },
+  "paradigm": {
+    "Description": "Experimental paradigm grouping"
+  }
+}

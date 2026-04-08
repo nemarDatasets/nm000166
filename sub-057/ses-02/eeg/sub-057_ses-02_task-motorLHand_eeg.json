@@ -1,0 +1,72 @@
+{
+  "TaskName": "motorLHand",
+  "Manufacturer": "Brain Products GmbH",
+  "PowerLineFrequency": 50,
+  "SamplingFrequency": 250.0,
+  "SoftwareFilters": {
+    "BandpassFilter": {
+      "lowFreq": 0.01,
+      "highFreq": 200,
+      "order": 4,
+      "rolloff": "24 dB/octave",
+      "type": "Butterworth",
+      "phase": "zero-phase"
+    },
+    "NotchFilter": {
+      "lowFreq": 49,
+      "highFreq": 51,
+      "order": 4,
+      "rolloff": "24 dB/octave",
+      "type": "Butterworth",
+      "phase": "zero-phase"
+    }
+  },
+  "RecordingDuration": 271.996,
+  "RecordingType": "continuous",
+  "EEGReference": "TP9/TP10 (linked mastoids, applied offline during preprocessing)",
+  "EEGGround": "AFz",
+  "EEGPlacementScheme": "10-20",
+  "EEGChannelCount": 64,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "TaskDescription": "Motor execution \u2014 left hand grip, 3 s cue duration, 20 trials/run (runs 03, 06, 10, 13)",
+  "InstitutionName": "Shenzhen University",
+  "InstitutionalDepartmentName": "School of Biomedical Engineering, Health Science Center",
+  "InstitutionAddress": "Shenzhen, Guangdong 518060, China",
+  "ManufacturersModelName": "BrainAmp",
+  "CapManufacturer": "Easycap",
+  "CapManufacturersModelName": "64-channel Easycap",
+  "StimulusPresentation": {
+    "SoftwareName": "Psychtoolbox-3",
+    "SoftwareVersion": "3.x (in Matlab 2018b)",
+    "ScreenDistance": 100,
+    "ScreenRefreshRate": 240,
+    "ScreenResolution": [
+      1920,
+      1080
+    ],
+    "ScreenSize": 24.5,
+    "AdditionalHardware": "Arduino Uno for sensory stimuli via serial port; Nokia WH-102 headphones; 3W LED with TES-1332A light meter; 1027 disk vibration motor"
+  },
+  "HardwareFilters": "n/a",
+  "SoftwareVersions": "n/a",
+  "DeviceSerialNumber": "n/a",
+  "CogAtlasID": "n/a",
+  "CogPOID": "n/a",
+  "MISCChannelCount": 0,
+  "PreprocessingSoftware": "Matlab 2018b with Letswave7 (letswave.cn)",
+  "SubjectArtefactDescription": "Bad channels identified manually and interpolated with the mean of three surrounding channels (22 subjects had bad channels). Eye blink and eye movement artifacts removed by ICA \u2014 components identified by visual inspection of scalp topographies, time courses, and spectra (Huang et al., 2020). No bad epoch rejection.",
+  "EpochLength": 4.0,
+  "NumberOfEpochs": 68,
+  "SourceSamplingFrequency": 1000,
+  "OriginalTaskCode": 12,
+  "Paradigm": "motor-execution",
+  "StimulusDescription": "Visual cue (white 300x300 px square via Psychtoolbox-3), executed grip at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome",
+  "Note": "This file contains pseudo-continuous EEG reconstructed by concatenating pre-epoched 4-second segments from the M3CV competition dataset. The original continuous BrainVision recordings are not publicly available. Data was preprocessed (filtered, ICA-cleaned, re-referenced, downsampled) before distribution.",
+  "Instructions": "When the visual cue appears, grip your left hand at ~2x/sec, ~80% effort, for 3 seconds.",
+  "OriginalTriggerCode": "S 8",
+  "ExpectedEpochCount": 80
+}

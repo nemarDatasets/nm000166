@@ -1,0 +1,47 @@
+{
+    "Name": "M3CV: Multi-subject, Multi-session, Multi-task EEG Database",
+    "BIDSVersion": "1.9.0",
+    "DatasetType": "raw",
+    "License": "CC BY 4.0",
+    "Authors": [
+        "Gan Huang",
+        "Zhenxing Hu",
+        "Weize Chen",
+        "Shaorong Zhang",
+        "Zhen Liang",
+        "Linling Li",
+        "Li Zhang",
+        "Zhiguo Zhang"
+    ],
+    "HowToAcknowledge": "Please cite: Huang, G. et al. (2022). M3CV: A multi-subject, multi-session, and multi-task database for EEG-based biometrics challenge. NeuroImage, 264, 119666.",
+    "Funding": [
+        "National Natural Science Foundation of China (62271326, 81871443, 61906122, 81901831)",
+        "Shenzhen Municipality Science, Technology and Innovation Commission (JCYJ20190908181739182)",
+        "Shenzhen Science and Technology Program (JSGG20210713091811038)",
+        "Shenzhen Hong Kong Institute of Brain Science-Shenzhen Fundamental Research Institutions (2022SHIBS0003)",
+        "Shenzhen Sanming Project of Medicine (SZSM202111009)",
+        "Shenzhen Special Project for Sustainable Development (KCXFZ20201221173400001)"
+    ],
+    "EthicsApprovals": [
+        "Medical Ethics Committee, Health Science Center, Shenzhen University (No. 2019053)"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.1016/j.neuroimage.2022.119666",
+        "https://www.kaggle.com/competitions/eeg-based-biometric-competition",
+        "https://www.kaggle.com/competitions/eeg-biometric-competition"
+    ],
+    "DatasetDOI": "doi:10.1016/j.neuroimage.2022.119666",
+    "GeneratedBy": [
+        {
+            "Name": "convert_m3cv.py (EEGDash)",
+            "Description": "Reconstructed pseudo-continuous EEG from pre-epoched .mat files distributed via Kaggle. Epochs concatenated per subject/session/task. Original continuous recordings are not publicly available.",
+            "CodeURL": "https://github.com/bruaristimunha/EEGDash"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "URL": "https://www.kaggle.com/competitions/eeg-based-biometric-competition",
+            "Version": "2022-07-27"
+        }
+    ]
+}

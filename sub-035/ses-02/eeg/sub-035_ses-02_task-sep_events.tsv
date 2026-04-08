@@ -1,0 +1,7 @@
+onset	duration	trial_type	value	sample	epoch_index	epoch_id	task_code	paradigm	stimulus_description
+1.996	0.05	stimulus/sep	5	499	0	epoch069218	5	transient-state	1027 disk vibration motor on left hand, 50 ms duration, 3 W rated power, 80% efficiency, 10 mm x 2.7 mm; delivered via Arduino Uno
+5.996	0.05	stimulus/sep	5	1499	1	epoch081468	5	transient-state	1027 disk vibration motor on left hand, 50 ms duration, 3 W rated power, 80% efficiency, 10 mm x 2.7 mm; delivered via Arduino Uno
+9.996	0.05	stimulus/sep	5	2499	2	epoch085903	5	transient-state	1027 disk vibration motor on left hand, 50 ms duration, 3 W rated power, 80% efficiency, 10 mm x 2.7 mm; delivered via Arduino Uno
+13.996	0.05	stimulus/sep	5	3499	3	epoch098630	5	transient-state	1027 disk vibration motor on left hand, 50 ms duration, 3 W rated power, 80% efficiency, 10 mm x 2.7 mm; delivered via Arduino Uno
+17.996	0.05	stimulus/sep	5	4499	4	epoch113652	5	transient-state	1027 disk vibration motor on left hand, 50 ms duration, 3 W rated power, 80% efficiency, 10 mm x 2.7 mm; delivered via Arduino Uno
+21.996	0.05	stimulus/sep	5	5499	5	epoch113954	5	transient-state	1027 disk vibration motor on left hand, 50 ms duration, 3 W rated power, 80% efficiency, 10 mm x 2.7 mm; delivered via Arduino Uno

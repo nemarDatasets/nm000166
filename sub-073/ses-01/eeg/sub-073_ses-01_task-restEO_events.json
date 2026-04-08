@@ -1,0 +1,62 @@
+{
+  "sample": {
+    "Description": "Onset sample index (0-based) in the continuous recording"
+  },
+  "StimulusPresentation": {
+    "SoftwareName": "Psychtoolbox-3",
+    "SoftwareVersion": "3.x (in Matlab 2018b)",
+    "ScreenDistance": 100,
+    "ScreenRefreshRate": 240,
+    "ScreenResolution": [
+      1920,
+      1080
+    ]
+  },
+  "trial_type": {
+    "Description": "Type of event",
+    "Levels": {
+      "segment/restEO": "Resting state eyes open, 1 min per run (runs 02 & 15)"
+    }
+  },
+  "value": {
+    "Description": "Event code from the M3CV marker channel"
+  },
+  "epoch_index": {
+    "Description": "Sequential epoch index within this task (0-based)"
+  },
+  "epoch_id": {
+    "Description": "Original EpochID from M3CV dataset CSV files"
+  },
+  "task_code": {
+    "Description": "Original M3CV task code (1-13)",
+    "Levels": {
+      "1": "Resting state eyes closed, 1 min per run (runs 01 & 14)",
+      "2": "Resting state eyes open, 1 min per run (runs 02 & 15)",
+      "3": "Visual evoked potential, 50 ms LED flash, ISI 2-4 s, 30 trials/run (runs 04 & 11)",
+      "4": "Auditory evoked potential, 1000 Hz tone 50 ms, ISI 2-4 s, 30 trials/run (runs 04 & 11)",
+      "5": "Somatosensory evoked potential, vibration on left hand 50 ms, ISI 2-4 s, 30 trials/run (runs 04 & 11)",
+      "6": "Steady-state visual evoked potential, 10 Hz LED, 1 min (run 05)",
+      "7": "Steady-state auditory evoked potential, 45.38 Hz, 2 min (run 09)",
+      "8": "Steady-state somatosensory evoked potential, 22.04 Hz vibration, 2 min (run 12)",
+      "9": "P300 visual oddball",
+      "10": "Motor execution",
+      "11": "Motor execution",
+      "12": "Motor execution",
+      "13": "SSVEP with selective attention"
+    }
+  },
+  "paradigm": {
+    "Description": "Experimental paradigm grouping",
+    "Levels": {
+      "resting-state": "Resting state (eyes open/closed)",
+      "transient-state": "Transient sensory evoked potentials (VEP/AEP/SEP)",
+      "steady-state": "Steady-state sensory evoked potentials (SSVEP/SSAEP/SSSEP)",
+      "cognitive-oddball": "P300 visual oddball (target trials only)",
+      "motor-execution": "Motor execution (foot/right hand/left hand)",
+      "ssvep-selective-attention": "SSVEP with selective attention (6 frequencies)"
+    }
+  },
+  "stimulus_description": {
+    "Description": "Physical stimulus parameters from the original paper"
+  }
+}

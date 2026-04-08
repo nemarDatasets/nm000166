@@ -1,0 +1,13 @@
+onset	duration	trial_type	value	sample	epoch_index	epoch_id	task_code	paradigm	stimulus_description
+0.0	3.0	cue/motorLHand	12	0	0	epoch063066	12	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed grip at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+4.0	3.0	cue/motorLHand	12	1000	1	epoch067855	12	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed grip at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+8.0	3.0	cue/motorLHand	12	2000	2	epoch072847	12	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed grip at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+12.0	3.0	cue/motorLHand	12	3000	3	epoch079975	12	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed grip at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+16.0	3.0	cue/motorLHand	12	4000	4	epoch080439	12	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed grip at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+20.0	3.0	cue/motorLHand	12	5000	5	epoch080715	12	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed grip at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+24.0	3.0	cue/motorLHand	12	6000	6	epoch086134	12	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed grip at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+28.0	3.0	cue/motorLHand	12	7000	7	epoch096022	12	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed grip at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+32.0	3.0	cue/motorLHand	12	8000	8	epoch099134	12	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed grip at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+36.0	3.0	cue/motorLHand	12	9000	9	epoch100636	12	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed grip at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+40.0	3.0	cue/motorLHand	12	10000	10	epoch111769	12	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed grip at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome
+44.0	3.0	cue/motorLHand	12	11000	11	epoch119036	12	motor-execution	Visual cue (white 300x300 px square via Psychtoolbox-3), executed grip at ~2x/sec, ~80% MVC, 3 s duration until cue offset, no feedback or metronome

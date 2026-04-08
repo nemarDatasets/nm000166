@@ -1,0 +1,76 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "age": {
+        "Description": "Age of the participant at time of testing",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "F": "female",
+            "M": "male"
+        }
+    },
+    "hand": {
+        "Description": "Handedness of the participant",
+        "Levels": {
+            "R": "right",
+            "L": "left",
+            "A": "ambidextrous"
+        }
+    },
+    "weight": {
+        "Description": "Body weight of the participant",
+        "Units": "kg"
+    },
+    "height": {
+        "Description": "Body height of the participant",
+        "Units": "m"
+    },
+    "handedness": {
+        "Description": "Dominant hand (not reported in original study)",
+        "Levels": {
+            "R": "right",
+            "L": "left",
+            "A": "ambidextrous"
+        }
+    },
+    "group": {
+        "Description": "Subject group",
+        "Levels": {
+            "control": "Healthy young adult from Shenzhen University"
+        }
+    },
+    "n_sessions": {
+        "Description": "Number of recording sessions (2 for all 95 subjects)"
+    },
+    "n_epochs_total": {
+        "Description": "Total number of epochs across all sessions, tasks, and competition sets"
+    },
+    "n_tasks": {
+        "Description": "Number of distinct task types available for this subject"
+    },
+    "in_enrollment": {
+        "Description": "Whether subject appears in the Enrollment set (session 1, training data)",
+        "Levels": {
+            "yes": "Present in Enrollment",
+            "no": "Not in Enrollment"
+        }
+    },
+    "in_calibration": {
+        "Description": "Whether subject appears in the Calibration set (session 2, 20 subjects for tuning)",
+        "Levels": {
+            "yes": "Present in Calibration",
+            "no": "Not in Calibration"
+        }
+    },
+    "in_testing": {
+        "Description": "Whether subject appears in the Testing set (session 2, evaluation)",
+        "Levels": {
+            "yes": "Present in Testing",
+            "no": "Not in Testing"
+        }
+    }
+}

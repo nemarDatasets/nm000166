@@ -1,0 +1,21 @@
+onset	duration	trial_type	value	sample	epoch_index	epoch_id	task_code	paradigm	stimulus_description
+0.0	4.0	segment/restEO	2	0	0	epoch062055	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+4.0	4.0	segment/restEO	2	1000	1	epoch068774	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+8.0	4.0	segment/restEO	2	2000	2	epoch070637	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+12.0	4.0	segment/restEO	2	3000	3	epoch071521	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+16.0	4.0	segment/restEO	2	4000	4	epoch077672	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+20.0	4.0	segment/restEO	2	5000	5	epoch080302	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+24.0	4.0	segment/restEO	2	6000	6	epoch083672	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+28.0	4.0	segment/restEO	2	7000	7	epoch086181	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+32.0	4.0	segment/restEO	2	8000	8	epoch086741	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+36.0	4.0	segment/restEO	2	9000	9	epoch089109	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+40.0	4.0	segment/restEO	2	10000	10	epoch093106	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+44.0	4.0	segment/restEO	2	11000	11	epoch094479	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+48.0	4.0	segment/restEO	2	12000	12	epoch095551	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+52.0	4.0	segment/restEO	2	13000	13	epoch097438	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+56.0	4.0	segment/restEO	2	14000	14	epoch098150	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+60.0	4.0	segment/restEO	2	15000	15	epoch102936	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+64.0	4.0	segment/restEO	2	16000	16	epoch106471	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+68.0	4.0	segment/restEO	2	17000	17	epoch109493	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+72.0	4.0	segment/restEO	2	18000	18	epoch117754	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking
+76.0	4.0	segment/restEO	2	19000	19	epoch119266	2	resting-state	No stimulus; eyes open, fixating straight ahead with minimal blinking

@@ -1,0 +1,16 @@
+onset	duration	trial_type	value	sample	epoch_index	epoch_id	task_code	paradigm	stimulus_description
+0.0	4.0	segment/ssvep	6	0	0	epoch039014	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+4.0	4.0	segment/ssvep	6	1000	1	epoch039036	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+8.0	4.0	segment/ssvep	6	2000	2	epoch039117	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+12.0	4.0	segment/ssvep	6	3000	3	epoch039144	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+16.0	4.0	segment/ssvep	6	4000	4	epoch039188	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+20.0	4.0	segment/ssvep	6	5000	5	epoch039219	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+24.0	4.0	segment/ssvep	6	6000	6	epoch039221	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+28.0	4.0	segment/ssvep	6	7000	7	epoch039270	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+32.0	4.0	segment/ssvep	6	8000	8	epoch039281	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+36.0	4.0	segment/ssvep	6	9000	9	epoch039347	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+40.0	4.0	segment/ssvep	6	10000	10	epoch039463	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+44.0	4.0	segment/ssvep	6	11000	11	epoch039516	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+48.0	4.0	segment/ssvep	6	12000	12	epoch039539	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+52.0	4.0	segment/ssvep	6	13000	13	epoch039541	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min
+56.0	4.0	segment/ssvep	6	14000	14	epoch039584	6	steady-state	10 Hz LED flickering (same 3 W LED as VEP), continuous for 1 min

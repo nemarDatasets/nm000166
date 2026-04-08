@@ -1,0 +1,15 @@
+onset	duration	trial_type	value	sample	epoch_index	epoch_id	task_code	paradigm	stimulus_description
+1.996	0.05	stimulus/vep	3	499	0	epoch067515	3	transient-state	3 W LED (TES-1332A measured), 2 cm diameter circular shield, 45 cm from eyes, 1074 Lux mean intensity, 50 ms duration; delivered via Arduino Uno
+5.996	0.05	stimulus/vep	3	1499	1	epoch073214	3	transient-state	3 W LED (TES-1332A measured), 2 cm diameter circular shield, 45 cm from eyes, 1074 Lux mean intensity, 50 ms duration; delivered via Arduino Uno
+9.996	0.05	stimulus/vep	3	2499	2	epoch079639	3	transient-state	3 W LED (TES-1332A measured), 2 cm diameter circular shield, 45 cm from eyes, 1074 Lux mean intensity, 50 ms duration; delivered via Arduino Uno
+13.996	0.05	stimulus/vep	3	3499	3	epoch080355	3	transient-state	3 W LED (TES-1332A measured), 2 cm diameter circular shield, 45 cm from eyes, 1074 Lux mean intensity, 50 ms duration; delivered via Arduino Uno
+17.996	0.05	stimulus/vep	3	4499	4	epoch080531	3	transient-state	3 W LED (TES-1332A measured), 2 cm diameter circular shield, 45 cm from eyes, 1074 Lux mean intensity, 50 ms duration; delivered via Arduino Uno
+21.996	0.05	stimulus/vep	3	5499	5	epoch083180	3	transient-state	3 W LED (TES-1332A measured), 2 cm diameter circular shield, 45 cm from eyes, 1074 Lux mean intensity, 50 ms duration; delivered via Arduino Uno
+25.996	0.05	stimulus/vep	3	6499	6	epoch085845	3	transient-state	3 W LED (TES-1332A measured), 2 cm diameter circular shield, 45 cm from eyes, 1074 Lux mean intensity, 50 ms duration; delivered via Arduino Uno
+29.996	0.05	stimulus/vep	3	7499	7	epoch086163	3	transient-state	3 W LED (TES-1332A measured), 2 cm diameter circular shield, 45 cm from eyes, 1074 Lux mean intensity, 50 ms duration; delivered via Arduino Uno
+33.996	0.05	stimulus/vep	3	8499	8	epoch094831	3	transient-state	3 W LED (TES-1332A measured), 2 cm diameter circular shield, 45 cm from eyes, 1074 Lux mean intensity, 50 ms duration; delivered via Arduino Uno
+37.996	0.05	stimulus/vep	3	9499	9	epoch099465	3	transient-state	3 W LED (TES-1332A measured), 2 cm diameter circular shield, 45 cm from eyes, 1074 Lux mean intensity, 50 ms duration; delivered via Arduino Uno
+41.996	0.05	stimulus/vep	3	10499	10	epoch101854	3	transient-state	3 W LED (TES-1332A measured), 2 cm diameter circular shield, 45 cm from eyes, 1074 Lux mean intensity, 50 ms duration; delivered via Arduino Uno
+45.996	0.05	stimulus/vep	3	11499	11	epoch102242	3	transient-state	3 W LED (TES-1332A measured), 2 cm diameter circular shield, 45 cm from eyes, 1074 Lux mean intensity, 50 ms duration; delivered via Arduino Uno
+49.996	0.05	stimulus/vep	3	12499	12	epoch110931	3	transient-state	3 W LED (TES-1332A measured), 2 cm diameter circular shield, 45 cm from eyes, 1074 Lux mean intensity, 50 ms duration; delivered via Arduino Uno
+53.996	0.05	stimulus/vep	3	13499	13	epoch118052	3	transient-state	3 W LED (TES-1332A measured), 2 cm diameter circular shield, 45 cm from eyes, 1074 Lux mean intensity, 50 ms duration; delivered via Arduino Uno

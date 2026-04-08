@@ -1,0 +1,19 @@
+onset	duration	trial_type	value	sample	epoch_index	epoch_id	task_code	paradigm	stimulus_description
+1.996	0.05	stimulus/aep	4	499	0	epoch059546	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno
+5.996	0.05	stimulus/aep	4	1499	1	epoch062004	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno
+9.996	0.05	stimulus/aep	4	2499	2	epoch062221	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno
+13.996	0.05	stimulus/aep	4	3499	3	epoch065187	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno
+17.996	0.05	stimulus/aep	4	4499	4	epoch086293	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno
+21.996	0.05	stimulus/aep	4	5499	5	epoch088064	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno
+25.996	0.05	stimulus/aep	4	6499	6	epoch093996	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno
+29.996	0.05	stimulus/aep	4	7499	7	epoch105617	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno
+33.996	0.05	stimulus/aep	4	8499	8	epoch106991	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno
+37.996	0.05	stimulus/aep	4	9499	9	epoch109506	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno
+41.996	0.05	stimulus/aep	4	10499	10	epoch110287	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno
+45.996	0.05	stimulus/aep	4	11499	11	epoch113537	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno
+49.996	0.05	stimulus/aep	4	12499	12	epoch114004	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno
+53.996	0.05	stimulus/aep	4	13499	13	epoch116480	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno
+57.996	0.05	stimulus/aep	4	14499	14	epoch117703	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno
+61.996	0.05	stimulus/aep	4	15499	15	epoch118625	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno
+65.996	0.05	stimulus/aep	4	16499	16	epoch119018	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno
+69.996	0.05	stimulus/aep	4	17499	17	epoch119577	4	transient-state	1000 Hz pure tone, 50 ms duration, 75 dB SPL average; Nokia WH-102 headphones; delivered via Arduino Uno

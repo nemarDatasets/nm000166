@@ -1,0 +1,13 @@
+onset	duration	trial_type	value	sample	epoch_index	epoch_id	task_code	paradigm	stimulus_description
+0.0	4.0	segment/restEC	1	0	0	epoch068349	1	resting-state	No stimulus; eyes closed, fixating on LED (off state)
+4.0	4.0	segment/restEC	1	1000	1	epoch068399	1	resting-state	No stimulus; eyes closed, fixating on LED (off state)
+8.0	4.0	segment/restEC	1	2000	2	epoch069845	1	resting-state	No stimulus; eyes closed, fixating on LED (off state)
+12.0	4.0	segment/restEC	1	3000	3	epoch070042	1	resting-state	No stimulus; eyes closed, fixating on LED (off state)
+16.0	4.0	segment/restEC	1	4000	4	epoch073610	1	resting-state	No stimulus; eyes closed, fixating on LED (off state)
+20.0	4.0	segment/restEC	1	5000	5	epoch078992	1	resting-state	No stimulus; eyes closed, fixating on LED (off state)
+24.0	4.0	segment/restEC	1	6000	6	epoch080723	1	resting-state	No stimulus; eyes closed, fixating on LED (off state)
+28.0	4.0	segment/restEC	1	7000	7	epoch086854	1	resting-state	No stimulus; eyes closed, fixating on LED (off state)
+32.0	4.0	segment/restEC	1	8000	8	epoch088237	1	resting-state	No stimulus; eyes closed, fixating on LED (off state)
+36.0	4.0	segment/restEC	1	9000	9	epoch092149	1	resting-state	No stimulus; eyes closed, fixating on LED (off state)
+40.0	4.0	segment/restEC	1	10000	10	epoch094407	1	resting-state	No stimulus; eyes closed, fixating on LED (off state)
+44.0	4.0	segment/restEC	1	11000	11	epoch118037	1	resting-state	No stimulus; eyes closed, fixating on LED (off state)
