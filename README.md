@@ -1,0 +1,129 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000166-blue)](https://doi.org/10.82901/nemar.nm000166)
+
+M3CV: Multi-subject, Multi-session, and Multi-task EEG Database
+================================================================
+
+Overview
+--------
+This dataset contains 64-channel EEG from 95 healthy young adults (Age:
+21.3 +/- 2.2 years; 73 males, 22 females) from Shenzhen University, recorded
+across 2 sessions on different days using a BrainAmp amplifier with 64-channel
+Easycap (standard 10-20 positions). Each subject performed 6 paradigms with 14
+types of EEG signals across 15 runs per session (~50 min recording, ~2 h total
+including setup and rest). The original paper describes 14 signal types; the
+distributed data contains 13 task codes because nontarget P300 epochs were not
+included.
+
+The original data was recorded at 1000 Hz and preprocessed using Matlab 2018b
+with Letswave7 (letswave.cn), then distributed as individual 4-second epoched
+.mat files at 250 Hz.
+
+This BIDS version reconstructs pseudo-continuous EEG by concatenating the
+distributed epochs per subject/session/task. Event markers indicate epoch
+boundaries and stimulus onsets derived from the original marker channel.
+
+Ethics: Medical Ethics Committee, Health Science Center, Shenzhen University
+(No. 2019053). All subjects gave informed consent.
+
+Recording Setup
+---------------
+- Amplifier: BrainAmp (Brain Products GmbH, Germany)
+- Cap: 64-channel Easycap, standard 10-20 positions
+- Online reference: FCz; Ground: AFz
+- Sampling rate: 1000 Hz (distributed at 250 Hz after preprocessing)
+- Impedance: < 20 kOhm
+- Subject distance: ~1 meter from screen
+- Screen: 24.5-inch Alienware AW2518H (1920x1080, 240 Hz refresh rate)
+- Visual stimuli: Psychtoolbox-3 in Matlab
+- Sensory stimuli: Arduino Uno platform via serial port to Matlab
+- LED: 3 W, 2 cm diameter circular shield, 45 cm from eyes, 1074 Lux
+  (measured by TES-1332A light meter)
+- Headphones: Nokia WH-102, 75 dB SPL average
+- Vibration motor: 1027 disk, 3 W rated, 80% efficiency, 10 mm x 2.7 mm,
+  placed on subject's left hand
+- Power line frequency: 50 Hz
+
+Preprocessing (applied before distribution, Table 3 of paper)
+--------------------------------------------------------------
+Software: Matlab 2018b & Letswave7 (letswave.cn)
+1. Bad channels identified manually, interpolated with mean of 3 surrounding
+   channels (22 of 95 subjects had bad channels)
+2. Channel FCz (online reference) added back
+3. Channel IO (EOG) removed
+4. Bandpass filter: 0.01-200 Hz, 4th-order Butterworth, 24 dB/octave, zero-phase
+5. Notch filter: 49-51 Hz bandstop, 4th-order Butterworth, 24 dB/octave, zero-phase
+6. Re-referenced to mean of TP9 and TP10 (linked mastoids)
+7. ICA artifact removal: eye blink and eye movement components identified by
+   visual inspection of scalp topographies, time courses, and spectra
+   (Huang et al., 2020)
+8. Downsampled to 250 Hz
+9. No bad epoch rejection (intentional for ML robustness/repeatability)
+
+Note: One subject was removed due to strong 10 Hz artifacts. The remaining 95
+subjects are included in the distributed data.
+
+Paradigms (14 signal types, 13 in distributed data, 15 runs/session)
+---------------------------------------------------------------------
+Run 01: Eyes Closed resting (restEC) — 1 min; fixate on LED (off)
+Run 02: Eyes Open resting (restEO) — 1 min; fixate ahead, minimal blink
+Run 03: Motor execution (motorFoot/motorRHand/motorLHand) — 20 trials each
+Run 04: Transient sensory (vep/aep/sep) — 30 trials each, random order, ~4.5 min
+Run 05: SSVEP (ssvep) — 10 Hz LED, 1 min
+Run 06: Motor execution — 20 trials each
+Run 07: P300 oddball (p300) — 600 stimuli (5% target=30, nontarget=570), 80 ms,
+        ISI 200 ms, 2 min; red/white 300x300 px squares; subjects count red
+Run 08: SSVEP-SA (ssvepSA) — 6 freq (7/8/9/11/13/15 Hz), 12 segments x 10 s
+Run 09: SSAEP (ssaep) — 45.38 Hz, 2 min
+Run 10: Motor execution — 20 trials each
+Run 11: Transient sensory — 30 trials each, random order
+Run 12: SSSEP (sssep) — 22.04 Hz vibration, 2 min
+Run 13: Motor execution — 20 trials each
+Run 14: Eyes Closed resting (restEC) — 1 min
+Run 15: Eyes Open resting (restEO) — 1 min
+
+Motor execution details: subjects gripped (LH/RH) or lifted ankle (FT) at
+~2x/sec, ~80% maximum voluntary contraction, 3 s duration until cue offset.
+No feedback, metronome, or hint was provided. Experimenters monitored movement
+quality during recording.
+
+Notes on distributed data
+--------------------------
+- 14 signal types in the paper, 13 task codes in distributed data:
+  nontarget P300 (paper task 10, trigger S10) was not distributed
+- P300: Only 30 target trials stored per subject; 570 nontarget discarded
+- SSVEP-SA: 6 frequency classes not distinguishable in marker; all marker=13
+- Trigger codes in original recording (S1-S25) differ from CSV Task column
+  (1-13). CSV Task 10=FT, 11=RH, 12=LH (paper tasks 11-13, triggers S6-S8)
+- Epoch ordering within task may not reflect original temporal sequence
+- 11 "intruder" subjects in Testing set have hidden SubjectIDs (excluded here)
+
+Subjects and Sessions
+---------------------
+- 106 total subjects; 95 completed both sessions
+- Age: 21.3 +/- 2.2 years (95 subjects); 73 males, 22 females
+- Normal hearing, normal/corrected vision, no neurological history (self-report)
+- Between-session interval: 6 to 139 days (mean ~20 days)
+- ses-01 = session 1 (Enrollment set)
+- ses-02 = session 2 (Calibration + Testing sets)
+- 11 "intruder" subjects (session 2 only, hidden IDs) are excluded from BIDS
+
+Competition context
+-------------------
+Originally distributed for the M3CV EEG-based Biometric Competition on Kaggle
+(identification and verification tasks). Competition closed Apr 30, 2023; late
+submissions remain allowed.
+
+Reference
+---------
+Huang, G., Hu, Z., Chen, W., Zhang, S., Liang, Z., Li, L., Zhang, L., &
+Zhang, Z. (2022). M3CV: A multi-subject, multi-session, and multi-task
+database for EEG-based biometrics challenge. NeuroImage, 264, 119666.
+https://doi.org/10.1016/j.neuroimage.2022.119666
+
+
+References
+----------
+Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Höchenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).https://doi.org/10.21105/joss.01896
+
+Pernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103.https://doi.org/10.1038/s41597-019-0104-8
+
