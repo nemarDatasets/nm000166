@@ -1,0 +1,127 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Gan Huang": {},
+    "Zhenxing Hu": {},
+    "Weize Chen": {},
+    "Shaorong Zhang": {},
+    "Zhen Liang": {},
+    "Linling Li": {},
+    "Li Zhang": {},
+    "Zhiguo Zhang": {
+      "orcid": "0000-0001-7992-7965"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.neuroimage.2022.119666",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000166",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000166",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "62271326"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "81871443"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "61906122"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "81901831"
+    },
+    {
+      "funder_name": "Shenzhen Municipality Science, Technology and Innovation Commission",
+      "award_number": "JCYJ20190908181739182"
+    },
+    {
+      "funder_name": "Shenzhen Science and Technology Program",
+      "award_number": "JSGG20210713091811038"
+    },
+    {
+      "funder_name": "Shenzhen Hong Kong Institute of Brain Science-Shenzhen Fundamental Research Institutions",
+      "award_number": "2022SHIBS0003"
+    },
+    {
+      "funder_name": "Shenzhen Sanming Project of Medicine",
+      "award_number": "SZSM202111009"
+    },
+    {
+      "funder_name": "Shenzhen Special Project for Sustainable Development",
+      "award_number": "KCXFZ20201221173400001"
+    }
+  ],
+  "title": "M3CV: Multi-subject, Multi-session, Multi-task EEG Database",
+  "license": "CC BY 4.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "23.2 GB (4939 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "description": "M3CV is a multi-subject, multi-session, multi-task EEG database comprising 64-channel recordings from 95 healthy young adults across two sessions. The dataset includes 14 types of EEG signals spanning resting state, motor execution, transient sensory stimulation, steady-state visual/auditory/somatosensory evoked potentials, and P300 oddball paradigms. Originally developed for EEG-based biometric identification and verification challenges, this BIDS-formatted version reconstructs pseudo-continuous EEG from preprocessed epochs, providing a comprehensive resource for brain-computer interface and biometric research.",
+  "methods_description": "EEG was recorded at 1000 Hz using a 64-channel BrainAmp amplifier with Easycap (10-20 positions), referenced to FCz online and re-referenced to linked mastoids offline. Preprocessing included manual bad channel interpolation, bandpass filtering (0.01-200 Hz), notch filtering (49-51 Hz), ICA-based artifact removal, and downsampling to 250 Hz. Subjects performed 6 paradigms with 15 runs per session (~50 minutes recording per session) including eyes-closed/open resting, motor execution (hand/foot), transient sensory stimulation (visual/auditory/somatosensory evoked potentials), SSVEP variants, and P300 oddball tasks.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "biometric identification"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "steady-state evoked potentials"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "resting state"
+    }
+  ],
+  "source_hash": "d37f06f063b1814a3fe0881191be3a0e1a9f94a22f2ce7e3f19f200393a5d2ba"
+}
