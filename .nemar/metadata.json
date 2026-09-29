@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "M3CV: Multi-subject, Multi-session, Multi-task EEG Database",
+  "description": "M3CV is a multi-subject, multi-session, multi-task EEG database with 64-channel recordings from 95 healthy young adults. Each subject was recorded on two different days across six paradigms covering 13 distributed signal types: resting states, motor execution, transient visual, auditory and somatosensory responses, SSVEP, P300, SSAEP and SSSEP. The data were originally released for an EEG-based biometrics competition on Kaggle. This BIDS version reconstructs pseudo-continuous EEG from the distributed pre-epoched, preprocessed 250 Hz files.",
+  "methods_description": "EEG was recorded with a BrainAmp amplifier and a 64-channel Easycap (10-20 layout) at 1000 Hz, with FCz as online reference. Visual, auditory and vibrotactile stimuli were delivered with Psychtoolbox-3 and Arduino. Data were preprocessed in Matlab/Letswave7: bad-channel interpolation, 0.01-200 Hz bandpass, 50 Hz notch, linked-mastoid re-referencing, ICA removal of ocular artifacts, and downsampling to 250 Hz. The result was distributed as 4-second epochs, which were concatenated per subject, session and task for this BIDS version.",
+  "license": "CC BY 4.0",
+  "dataset_type": "raw",
   "authors": {
     "Gan Huang": {},
     "Zhenxing Hu": {},
@@ -13,6 +18,29 @@
       "orcid": "0000-0001-7992-7965"
     }
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "biometrics"
+    },
+    {
+      "term": "multi-session"
+    },
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "motor execution"
+    },
+    {
+      "term": "resting state"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1016/j.neuroimage.2022.119666",
@@ -25,11 +53,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000166",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
       "relation_type": "References"
@@ -38,6 +61,11 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000166",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -78,16 +106,13 @@
       "award_number": "KCXFZ20201221173400001"
     }
   ],
-  "title": "M3CV: Multi-subject, Multi-session, Multi-task EEG Database",
-  "license": "CC BY 4.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "23.2 GB (4939 files)"
+    "21.56 GB (4939 files)"
   ],
   "formats": [
     ".eeg",
@@ -97,31 +122,6 @@
     ".vhdr",
     ".vmrk",
     ".yml"
-  ],
-  "description": "M3CV is a multi-subject, multi-session, multi-task EEG database comprising 64-channel recordings from 95 healthy young adults across two sessions. The dataset includes 14 types of EEG signals spanning resting state, motor execution, transient sensory stimulation, steady-state visual/auditory/somatosensory evoked potentials, and P300 oddball paradigms. Originally developed for EEG-based biometric identification and verification challenges, this BIDS-formatted version reconstructs pseudo-continuous EEG from preprocessed epochs, providing a comprehensive resource for brain-computer interface and biometric research.",
-  "methods_description": "EEG was recorded at 1000 Hz using a 64-channel BrainAmp amplifier with Easycap (10-20 positions), referenced to FCz online and re-referenced to linked mastoids offline. Preprocessing included manual bad channel interpolation, bandpass filtering (0.01-200 Hz), notch filtering (49-51 Hz), ICA-based artifact removal, and downsampling to 250 Hz. Subjects performed 6 paradigms with 15 runs per session (~50 minutes recording per session) including eyes-closed/open resting, motor execution (hand/foot), transient sensory stimulation (visual/auditory/somatosensory evoked potentials), SSVEP variants, and P300 oddball tasks.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "biometric identification"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "steady-state evoked potentials"
-    },
-    {
-      "term": "P300"
-    },
-    {
-      "term": "resting state"
-    }
   ],
   "source_hash": "d37f06f063b1814a3fe0881191be3a0e1a9f94a22f2ce7e3f19f200393a5d2ba"
 }
